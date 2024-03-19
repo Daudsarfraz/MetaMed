@@ -5,7 +5,7 @@
       <mName>Alia</mName>
       <mAge>29</mAge>
       <mWeight>80</mWeight>
-      <mType>Adult</mType>
+      <mType>Pregnant</mType>
       <mSex>Female</mSex>
       <mAllergies />
     </Patient>
@@ -54,8 +54,7 @@
       <mQuantity>6</mQuantity>
       <mUnit>ml</mUnit>
       <mPackage>flask</mPackage>
-      <mPointsOfAttention>"Dipidolor is administered before, during, and/or after surgery to reduce pain."
-      </mPointsOfAttention>
+      <mPointsOfAttention>"Dipidolor is administered before, during, and/or after surgery to reduce pain."</mPointsOfAttention>
     </Medicine>
     <Medicine mID="3">
       <mName>paracetamol</mName>
@@ -187,7 +186,6 @@
   </mCabinets>
   <mScenarios>
     <Scenario mID="0">
-      <strong>Welcome to MetaMed</strong>
       <mName>Scenario 1#"The patient has a headache and wants an effervescent tablet."</mName>
       <mPatientID>0</mPatientID>
       <mCabinetID>0</mCabinetID>
@@ -195,7 +193,7 @@
       <mDeliveryMethod>3</mDeliveryMethod>
     </Scenario>
     <Scenario mID="1">
-      <strong>Welcome to MetaMed</strong>
+      Welcome to MetaMed
       <mName>Scenario 2#"The patient is undergoing surgery shortly and needs something for pain relief."</mName>
       <mPatientID>3</mPatientID>
       <mCabinetID>0</mCabinetID>

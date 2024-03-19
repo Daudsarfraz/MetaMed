@@ -1,0 +1,14 @@
+[0319/102541:INFO:API.cpp(191)] zfb_init: Started browser
+
+[0319/102541:INFO:API.cpp(193)] zfb_init: Using --enable-system-flash
+
+[0319/102639:INFO:API.cpp(252)] zfb_shutdown called on thread 14520
+
+[0319/102639:ERROR:API.cpp(257)] zfb_shutdown: browser #1 still active
+
+[0319/102639:ERROR:API.cpp(257)] zfb_shutdown: browser #2 still active
+
+[0319/102639:INFO:API.cpp(293)] zfb_destoryBrowser extra destroy call on #1
+
+[0319/102639:INFO:API.cpp(293)] zfb_destoryBrowser extra destroy call on #2
+

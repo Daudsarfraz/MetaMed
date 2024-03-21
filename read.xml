@@ -5,7 +5,7 @@
       <mName>Alia</mName>
       <mAge>29</mAge>
       <mWeight>80</mWeight>
-      <mType>Pregnant</mType>
+      <mType>Adult</mType>
       <mSex>Female</mSex>
       <mAllergies />
     </Patient>

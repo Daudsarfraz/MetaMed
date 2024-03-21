@@ -5,7 +5,7 @@
       <mName>Muzamil</mName>
       <mAge>30</mAge>
       <mWeight>65</mWeight>
-      <mType>pregnant</mType>
+      <mType>Adult</mType>
       <mSex>female</mSex>
       <mAllergies />
     </Patient>

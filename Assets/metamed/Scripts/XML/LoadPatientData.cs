@@ -7,7 +7,7 @@ using UnityEngine;
 public class LoadPatientData : MonoBehaviour {
     public PatientPerson adult; //IF HAVING ERROR CHECK IF THESE ARE FILLED IN. 
     public PatientPerson child;
-    public PatientPerson pregnant;
+    public PatientPerson Adult;
     public PatientPerson senior;
 
     protected Patient patient;
@@ -19,7 +19,7 @@ public class LoadPatientData : MonoBehaviour {
         patient = XMLData.appData.mPatients[XMLData.scenario.mPatientID];
         adult.Reset();
         child.Reset();
-        pregnant.Reset();
+        Adult.Reset();
         senior.Reset();
 
         switch (patient.mType)
@@ -30,8 +30,8 @@ public class LoadPatientData : MonoBehaviour {
             case PatientType.child:
                 child.patient = patient;
                 break;
-            case PatientType.pregnant:
-                pregnant.patient = patient;
+            case PatientType.Adult:
+                Adult.patient = patient;
                 break;
             case PatientType.senior:
                 senior.patient = patient;

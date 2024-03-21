@@ -12,7 +12,7 @@ public enum PatientType
 {
     adult = 0,
     child,
-    pregnant,
+   Adult,
     senior
 }
 
@@ -62,8 +62,8 @@ public class Patient : SearchResult //inheritance added by stefan
     public string Name //returns lastname
     {
         get{
-            //mName is for example "Ho Su Yan" where "Ho" is firstname and "su Yan" is last name
-            mName.Substring(mName.IndexOf(' ') + 1); //returns "su Yan" (normally) in the case of "Ho Su Yan"
+            //mName is for example "Ahmad ali malik" where "Ahmad" is firstname and "ali malik" is last name
+            mName.Substring(mName.IndexOf(' ') + 1); //returns "su Yan" (normally) in the case of "Ahmad ali malik"
             return mName;
         }
     }

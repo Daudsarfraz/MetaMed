@@ -11,7 +11,7 @@ using UnityEngine;
 public class LoadPatient : MonoBehaviour {
     public GameObject adultMan; //prefab of adult man
     public GameObject child;
-    public GameObject pregnantWoman;
+    public GameObject AdultWoman;
     public GameObject seniorMan;
 
     protected Patient patientData;
@@ -31,8 +31,8 @@ public class LoadPatient : MonoBehaviour {
             case PatientType.child:
                 patient = Instantiate(child, this.transform.position, this.transform.rotation);
                 break;
-            case PatientType.pregnant:
-                patient = Instantiate(pregnantWoman, this.transform.position, this.transform.rotation);
+            case PatientType.Adult:
+                patient = Instantiate(AdultWoman, this.transform.position, this.transform.rotation);
                 break;
             case PatientType.senior:
                 patient = Instantiate(seniorMan, this.transform.position, this.transform.rotation);
